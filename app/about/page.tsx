@@ -15,7 +15,7 @@ export default function AboutPage() {
                 <p className="text-gray-600">
                   Established in 2011, Aaruthra Interior Work has been at the forefront of interior design and renovation
                   services for over a decade. Our unwavering commitment to excellence and innovation has enabled us
-                  to bring our clients' visions to life across a wide range of projects.
+                  to bring our clients&apos; visions to life across a wide range of projects.
                 </p>
                 <p className="text-gray-600">
                   At Aaruthra Interior Work, we understand the importance of creating spaces that are both functional
@@ -24,7 +24,7 @@ export default function AboutPage() {
                 </p>
                 <p className="text-gray-600">
                   Our team of experienced designers and craftsmen work collaboratively to deliver exceptional results
-                  that exceed our clients' expectations. We pride ourselves on our attention to detail, quality
+                  that exceed our clients&apos; expectations. We pride ourselves on our attention to detail, quality
                   workmanship, and commitment to customer satisfaction.
                 </p>
               </div>
@@ -33,6 +33,7 @@ export default function AboutPage() {
                   src="/hero.png?height=600&width=800"
                   alt="Interior Design Showcase"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover rounded-lg"
                 />
               </div>
