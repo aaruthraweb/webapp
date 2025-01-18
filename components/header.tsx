@@ -14,14 +14,13 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         {/* Logo */}
-         <Link href="/" className="flex items-center space-x-2">
+        <Link href="/" className="flex items-center space-x-2">
           <Image
             src="/logo.ico?height=40&width=40"
             alt="Aaruthra Interiors Logo"
             width={40}
             height={40}
           />
-        
           <span className="text-xl font-bold">Aaruthra Interiors</span>
         </Link>
 
