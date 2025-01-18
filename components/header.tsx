@@ -16,7 +16,7 @@ export function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PHOTO-2024-06-01-19-40-38.jpg-CtB1qZ6hcAiI4k28JL9JIgAdjkuYBA.jpeg"
+            src="/logo.ico"
             alt="Aaruthra Interiors Logo"
             width={40}
             height={40}
