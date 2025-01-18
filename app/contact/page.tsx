@@ -15,7 +15,7 @@ export default function ContactPage() {
           <div className="container mx-auto">
             <h1 className="text-4xl font-bold mb-8 text-center">Get in Touch</h1>
             <p className="text-gray-600 text-center max-w-3xl mx-auto mb-12">
-              We'd love to hear from you. Whether you have a question about our services, want to discuss a project,
+              We&apos;d love to hear from you. Whether you have a question about our services, want to discuss a project,
               or just want to say hello, feel free to reach out to us.
             </p>
             <div className="grid gap-12 md:grid-cols-2">
@@ -23,7 +23,7 @@ export default function ContactPage() {
                 <CardHeader>
                   <CardTitle>Send us a message</CardTitle>
                   <CardDescription>
-                    Fill out the form below and we'll get back to you as soon as possible.
+                    Fill out the form below and we&apos;ll get back to you as soon as possible.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -104,10 +104,10 @@ export default function ContactPage() {
             <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
             <div className="grid gap-6 md:grid-cols-2">
               {[
-                { question: "What areas do you serve?", answer: "We primarily serve the greater metropolitan area and surrounding suburbs. However, we're open to discussing projects in other locations on a case-by-case basis." },
-                { question: "How long does a typical project take?", answer: "Project timelines can vary greatly depending on the scope and complexity. A small room redesign might take a few weeks, while a full home renovation could take several months. We'll provide a detailed timeline during our initial consultation." },
+                { question: "What areas do you serve?", answer: "We primarily serve the greater metropolitan area and surrounding suburbs. However, we&apos;re open to discussing projects in other locations on a case-by-case basis." },
+                { question: "How long does a typical project take?", answer: "Project timelines can vary greatly depending on the scope and complexity. A small room redesign might take a few weeks, while a full home renovation could take several months. We&apos;ll provide a detailed timeline during our initial consultation." },
                 { question: "Do you offer virtual design services?", answer: "Yes, we offer virtual design consultations and services for clients who prefer remote assistance or are located outside our primary service area." },
-                { question: "What's your design process like?", answer: "Our design process typically involves an initial consultation, concept development, design refinement, and implementation. We work closely with our clients at every stage to ensure their vision is brought to life." },
+                { question: "What&apos;s your design process like?", answer: "Our design process typically involves an initial consultation, concept development, design refinement, and implementation. We work closely with our clients at every stage to ensure their vision is brought to life." },
               ].map((faq, index) => (
                 <Card key={index}>
                   <CardHeader>
