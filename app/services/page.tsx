@@ -2,7 +2,7 @@ import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Home, Store, Building2, Warehouse, PaintBucket, Lightbulb } from 'lucide-react'
-import Image from 'next/image'
+
 
 const services = [
   {
