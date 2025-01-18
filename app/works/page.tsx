@@ -24,7 +24,7 @@ export default function WorksPage() {
             <h1 className="text-4xl font-bold mb-8 text-center">Our Works</h1>
             <p className="text-gray-600 text-center max-w-3xl mx-auto mb-12">
               Explore our portfolio of stunning interior design projects. From residential spaces to commercial
-              interiors, we've transformed numerous environments into beautiful, functional areas.
+              interiors, we&apos;ve transformed numerous environments into beautiful, functional areas.
             </p>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               {projects.map((project) => (
