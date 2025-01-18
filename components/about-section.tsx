@@ -12,7 +12,7 @@ export function AboutSection() {
             <p className="text-gray-600">
               Established in 2011, Aaruthra Interior Work has been at the forefront of interior design and renovation
               services for over a decade. Our unwavering commitment to excellence and innovation has enabled us
-              to bring our clients' visions to life across a wide range of projects.
+              to bring our clients&apos; visions to life across a wide range of projects.
             </p>
             <p className="text-gray-600">
               At Aaruthra Interior Work, we understand the importance of creating spaces that are both functional
@@ -29,6 +29,7 @@ export function AboutSection() {
               src="/hero.png?height=400&width=600"
               alt="Interior Design Showcase"
               fill
+              priority
               className="object-cover rounded-lg"
             />
           </div>
